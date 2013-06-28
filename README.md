@@ -1,10 +1,12 @@
 GoogleProject
 =============
 It can run in 2 modle:
+
 1. run in web server.
   config your web server support PHP.
   put the project to server folder
   in browser, input http://localhost/~viki/GoogleProject/g.php
+
 2. run in commend window
   php g.php
   
