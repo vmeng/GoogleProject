@@ -1,6 +1,6 @@
 <?php
 $fileName = $argv[1]?$argv[1]:'1.flac';
-$rate = $argv[2]?$argv[1]:16000;
+$rate = $argv[2]?$argv[2]:16000;
 echo $fileName."---".$rate."\n";
 $ch = curl_init();
 curl_setopt($ch, CURLOPT_URL, "http://www.google.com/speech-api/v1/recognize?xjerr=1&client=iPhone&lang=en-US&maxresults=1");
